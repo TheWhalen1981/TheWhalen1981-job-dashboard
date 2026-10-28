@@ -1,0 +1,146 @@
+[
+ {
+  "metric": "apps",
+  "level": "All",
+  "label": "Applications submitted",
+  "value": 30,
+  "format": "integer",
+  "delta": 0.222,
+  "delta_label": "dated apps, last 4 wks vs prior 4",
+  "spark": [
+   1,
+   0,
+   6,
+   2,
+   0,
+   5,
+   2,
+   3,
+   1,
+   1,
+   3,
+   4
+  ],
+  "good_when": "up"
+ },
+ {
+  "metric": "response",
+  "level": "All",
+  "label": "Response rate",
+  "value": 0.3,
+  "format": "percent",
+  "good_when": "up"
+ },
+ {
+  "metric": "live",
+  "level": "All",
+  "label": "Live interview processes",
+  "value": 4,
+  "format": "integer",
+  "good_when": "up"
+ },
+ {
+  "metric": "no_response",
+  "level": "All",
+  "label": "No Response",
+  "value": 14,
+  "format": "integer",
+  "good_when": "down"
+ },
+ {
+  "metric": "apps",
+  "level": "Director & above",
+  "label": "Applications submitted",
+  "value": 16,
+  "format": "integer",
+  "delta": 0.5,
+  "delta_label": "dated apps, last 4 wks vs prior 4",
+  "spark": [
+   1,
+   0,
+   3,
+   2,
+   0,
+   2,
+   1,
+   0,
+   0,
+   1,
+   2,
+   3
+  ],
+  "good_when": "up"
+ },
+ {
+  "metric": "response",
+  "level": "Director & above",
+  "label": "Response rate",
+  "value": 0.188,
+  "format": "percent",
+  "good_when": "up"
+ },
+ {
+  "metric": "live",
+  "level": "Director & above",
+  "label": "Live interview processes",
+  "value": 1,
+  "format": "integer",
+  "good_when": "up"
+ },
+ {
+  "metric": "no_response",
+  "level": "Director & above",
+  "label": "No Response",
+  "value": 7,
+  "format": "integer",
+  "good_when": "down"
+ },
+ {
+  "metric": "apps",
+  "level": "Manager & IC",
+  "label": "Applications submitted",
+  "value": 14,
+  "format": "integer",
+  "delta": 0,
+  "delta_label": "dated apps, last 4 wks vs prior 4",
+  "spark": [
+   0,
+   0,
+   3,
+   0,
+   0,
+   3,
+   1,
+   3,
+   1,
+   0,
+   1,
+   1
+  ],
+  "good_when": "up"
+ },
+ {
+  "metric": "response",
+  "level": "Manager & IC",
+  "label": "Response rate",
+  "value": 0.429,
+  "format": "percent",
+  "good_when": "up"
+ },
+ {
+  "metric": "live",
+  "level": "Manager & IC",
+  "label": "Live interview processes",
+  "value": 3,
+  "format": "integer",
+  "good_when": "up"
+ },
+ {
+  "metric": "no_response",
+  "level": "Manager & IC",
+  "label": "No Response",
+  "value": 7,
+  "format": "integer",
+  "good_when": "down"
+ }
+]

@@ -1,0 +1,268 @@
+{
+  "title": "4 live interviews in progress; 9 employers have responded out of 30 applications.",
+  "eyebrow": "Bradley Whalen \u00b7 Job search pipeline \u00b7 Aug\u2013Oct 2026",
+  "subtitle": "Every application in the tracker, from first submission on Aug 13 to today. Use the level tabs to compare Director-and-above roles with Manager and IC roles; hover any dot for the role. Status is the source of truth for all pipeline counts.",
+  "data_as_of": "2026-10-28T03:11:26Z",
+  "theme": "editorial",
+  "refresh": {
+    "mode": "refresh",
+    "every_hours": 24
+  },
+  "sources": [
+    {
+      "id": "tracker",
+      "label": "Bradley_Whalen_Job_Tracker.xlsx \u00b7 sheet \u201cJob Applications\u201d (Status format, updated Oct 27, 2026)"
+    }
+  ],
+  "asks": [
+    "Live, shareable dashboard built from Bradley_Whalen_Job_Tracker.xlsx (latest version, 30 applications)",
+    "Interactive charts and KPIs",
+    "Kept current on a schedule: re-read the tracker file daily, never modify the xlsx",
+    "Green rows (active interviews) shown as live processes",
+    "Tektronix shown as closed (did not move forward)",
+    "Volta and Tektronix have month-only dates: handled, not invented",
+    "Professional tone"
+  ],
+  "filters": [
+    {
+      "id": "level",
+      "type": "tabs",
+      "label": "Role level",
+      "field": "level",
+      "options": [
+        "All",
+        "Director & above",
+        "Manager & IC"
+      ],
+      "default": "All",
+      "applies_to": [
+        "kpi_apps",
+        "kpi_response",
+        "kpi_live",
+        "kpi_no_response",
+        "trend",
+        "funnel",
+        "waiting",
+        "months",
+        "pipeline"
+      ]
+    }
+  ],
+  "colors": {
+    "Accepted Offer": "pos",
+    "Interview": "accent",
+    "Awaiting Response": "accent-2",
+    "No Response": "accent-3",
+    "Closed": "neg"
+  },
+  "tiles": [
+    {
+      "id": "kpi_apps",
+      "type": "kpi",
+      "span": 3,
+      "data": "kpis",
+      "where": {
+        "metric": "apps"
+      },
+      "accent": "ink",
+      "source": "tracker",
+      "query": "queries/tracker.py"
+    },
+    {
+      "id": "kpi_response",
+      "type": "kpi",
+      "span": 3,
+      "data": "kpis",
+      "where": {
+        "metric": "response"
+      },
+      "accent": "accent",
+      "source": "tracker",
+      "query": "queries/tracker.py"
+    },
+    {
+      "id": "kpi_live",
+      "type": "kpi",
+      "span": 3,
+      "data": "kpis",
+      "where": {
+        "metric": "live"
+      },
+      "accent": "pos",
+      "source": "tracker",
+      "query": "queries/tracker.py"
+    },
+    {
+      "id": "kpi_no_response",
+      "type": "kpi",
+      "span": 3,
+      "data": "kpis",
+      "where": {
+        "metric": "no_response"
+      },
+      "accent": "neg",
+      "source": "tracker",
+      "query": "queries/tracker.py"
+    },
+    {
+      "id": "trend",
+      "type": "area",
+      "span": 8,
+      "title": "Applications and responses, cumulative",
+      "subtitle": "Daily running total by submission date \u00b7 28 applications with exact dates (Volta and Tektronix list only a month and are left out of the trend line)",
+      "insight": "The Sep 17 batch did the work: 3 of those 4 applications drew a response. 30\u00a0% overall response rate (9 of 30).",
+      "data": "trend",
+      "x": "date",
+      "series": [
+        {
+          "field": "applied",
+          "label": "Applied"
+        },
+        {
+          "field": "heard",
+          "label": "Responded"
+        }
+      ],
+      "end_values": true,
+      "format": "integer",
+      "annotations": [
+        {
+          "x": "Sep 17",
+          "label": "Sep 17: 4 applications, 3 responses"
+        }
+      ],
+      "source": "tracker",
+      "query": "queries/tracker.py"
+    },
+    {
+      "id": "funnel",
+      "type": "funnel",
+      "span": 4,
+      "title": "From application to offer",
+      "subtitle": "All 30 applications \u00b7 Responded = Interview + Closed + Accepted Offer",
+      "insight": "9 employers replied out of 30 \u2014 all 4 interview processes are still open.",
+      "data": "funnel",
+      "category": "stage",
+      "value": "value",
+      "source": "tracker",
+      "query": "queries/tracker.py"
+    },
+    {
+      "id": "waiting",
+      "type": "beeswarm",
+      "span": 7,
+      "title": "How long each application has been out",
+      "subtitle": "Days since submission, one dot per dated application \u00b7 colour = current status",
+      "insight": "14 No Response applications are 30+ days old; the oldest, SiTime, is at 75 days.",
+      "data": "waiting",
+      "category": "label",
+      "value": "days",
+      "color": "stage",
+      "sub": "level",
+      "scale": "linear",
+      "unit": "days",
+      "radius": 6,
+      "label_top": 2,
+      "ticks": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "source": "tracker",
+      "query": "queries/tracker.py"
+    },
+    {
+      "id": "months",
+      "type": "dots",
+      "span": 5,
+      "title": "Every application, by month submitted",
+      "subtitle": "One dot per application \u00b7 Tektronix (\u201cAug\u2013Sep\u201d) placed in Aug, its earliest month",
+      "insight": "Oct converted best: 3 of its applications reached interviews.",
+      "data": "applications",
+      "category": "label",
+      "group": "month",
+      "groups": [
+        "Aug",
+        "Sep",
+        "Oct"
+      ],
+      "color": "stage",
+      "color_order": [
+        "Accepted Offer",
+        "Interview",
+        "Awaiting Response",
+        "No Response",
+        "Closed"
+      ],
+      "source": "tracker",
+      "query": "queries/tracker.py"
+    },
+    {
+      "id": "pipeline",
+      "type": "table",
+      "span": 12,
+      "title": "The full pipeline",
+      "subtitle": "All 30 applications \u00b7 Status is the source of truth \u00b7 pay copied where posted",
+      "insight": "HP, Cisco, Circuit Mind, Volta are the 4 live interviews; 5 roles closed.",
+      "data": "applications",
+      "columns": [
+        {
+          "field": "firm",
+          "label": "Firm"
+        },
+        {
+          "field": "role",
+          "label": "Role"
+        },
+        {
+          "field": "submitted",
+          "label": "Submitted"
+        },
+        {
+          "field": "days_out",
+          "label": "Days out"
+        },
+        {
+          "field": "stage",
+          "label": "Status",
+          "format": "status",
+          "status_map": {
+            "Accepted Offer": {
+              "tone": "healthy",
+              "label": "Accepted Offer"
+            },
+            "Interview": {
+              "tone": "healthy",
+              "label": "Interview"
+            },
+            "Awaiting Response": {
+              "tone": "watch",
+              "label": "Awaiting Response"
+            },
+            "No Response": {
+              "tone": "watch",
+              "label": "No Response"
+            },
+            "Closed": {
+              "tone": "at-risk",
+              "label": "Closed"
+            }
+          }
+        },
+        {
+          "field": "pay",
+          "label": "Posted pay"
+        }
+      ],
+      "sort": {
+        "field": "stage_rank",
+        "dir": "asc"
+      },
+      "source": "tracker",
+      "query": "queries/tracker.py"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+ {
+  "level": "All",
+  "stage": "Applied",
+  "value": 30
+ },
+ {
+  "level": "All",
+  "stage": "Responded",
+  "value": 9
+ },
+ {
+  "level": "All",
+  "stage": "Interview",
+  "value": 4
+ },
+ {
+  "level": "All",
+  "stage": "Accepted Offer",
+  "value": 0
+ },
+ {
+  "level": "Director & above",
+  "stage": "Applied",
+  "value": 16
+ },
+ {
+  "level": "Director & above",
+  "stage": "Responded",
+  "value": 3
+ },
+ {
+  "level": "Director & above",
+  "stage": "Interview",
+  "value": 1
+ },
+ {
+  "level": "Director & above",
+  "stage": "Accepted Offer",
+  "value": 0
+ },
+ {
+  "level": "Manager & IC",
+  "stage": "Applied",
+  "value": 14
+ },
+ {
+  "level": "Manager & IC",
+  "stage": "Responded",
+  "value": 6
+ },
+ {
+  "level": "Manager & IC",
+  "stage": "Interview",
+  "value": 3
+ },
+ {
+  "level": "Manager & IC",
+  "stage": "Accepted Offer",
+  "value": 0
+ }
+]

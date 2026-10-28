@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Bradley Whalen · Job search pipeline</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="./kit/abacus-viz.css"/>
+<script src="./kit/echarts.min.js"></script><script src="./kit/abacus-viz.js"></script></head>
+<body><main id="dashboard"></main><script>
+fetch('./dashboard.json').then(r => r.json()).then(manifest => {
+  const keys = [...new Set(manifest.tiles.map(t => t.data))];
+  return Promise.all(keys.map(k => fetch('./data/' + k + '.json').then(r => r.json()))).then(rows => {
+    const data = Object.fromEntries(keys.map((k, i) => [k, rows[i]]));
+    const th = new URLSearchParams(location.search).get('theme'); if (th) document.documentElement.dataset.theme = th;
+    window.__viz = AbacusViz.mount(document.getElementById('dashboard'), manifest, data);
+  });
+});
+</script></body></html>
