@@ -456,6 +456,12 @@
   "heard": 7
  },
  {
+  "date": "Oct 28",
+  "level": "All",
+  "applied": 30,
+  "heard": 7
+ },
+ {
   "date": "Aug 13",
   "level": "Director & above",
   "applied": 1,
@@ -907,6 +913,12 @@
  },
  {
   "date": "Oct 27",
+  "level": "Director & above",
+  "applied": 15,
+  "heard": 2
+ },
+ {
+  "date": "Oct 28",
   "level": "Director & above",
   "applied": 15,
   "heard": 2
@@ -1365,6 +1377,12 @@
   "date": "Oct 27",
   "level": "Manager & IC",
   "applied": 13,
+  "heard": 5
+ },
+ {
+  "date": "Oct 28",
+  "level": "Manager & IC",
+  "applied": 15,
   "heard": 5
  }
 ]
