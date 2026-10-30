@@ -2,12 +2,12 @@
  {
   "level": "All",
   "stage": "Applied",
-  "value": 32
+  "value": 33
  },
  {
   "level": "All",
   "stage": "Responded",
-  "value": 9
+  "value": 12
  },
  {
   "level": "All",
@@ -22,17 +22,17 @@
  {
   "level": "Director & above",
   "stage": "Applied",
-  "value": 16
+  "value": 17
  },
  {
   "level": "Director & above",
   "stage": "Responded",
-  "value": 3
+  "value": 4
  },
  {
   "level": "Director & above",
   "stage": "Interview",
-  "value": 1
+  "value": 0
  },
  {
   "level": "Director & above",
@@ -47,12 +47,12 @@
  {
   "level": "Manager & IC",
   "stage": "Responded",
-  "value": 6
+  "value": 8
  },
  {
   "level": "Manager & IC",
   "stage": "Interview",
-  "value": 3
+  "value": 4
  },
  {
   "level": "Manager & IC",

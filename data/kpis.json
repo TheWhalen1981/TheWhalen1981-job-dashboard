@@ -3,9 +3,9 @@
   "metric": "apps",
   "level": "All",
   "label": "Applications submitted",
-  "value": 32,
+  "value": 33,
   "format": "integer",
-  "delta": 0.333,
+  "delta": 0.2,
   "delta_label": "dated apps, last 4 wks vs prior 4",
   "spark": [
    1,
@@ -19,7 +19,7 @@
    1,
    1,
    3,
-   6
+   7
   ],
   "good_when": "up"
  },
@@ -27,7 +27,7 @@
   "metric": "response",
   "level": "All",
   "label": "Response rate",
-  "value": 0.281,
+  "value": 0.364,
   "format": "percent",
   "good_when": "up"
  },
@@ -43,7 +43,7 @@
   "metric": "no_response",
   "level": "All",
   "label": "No Response",
-  "value": 14,
+  "value": 13,
   "format": "integer",
   "good_when": "down"
  },
@@ -51,9 +51,9 @@
   "metric": "apps",
   "level": "Director & above",
   "label": "Applications submitted",
-  "value": 16,
+  "value": 17,
   "format": "integer",
-  "delta": 1,
+  "delta": 1.333,
   "delta_label": "dated apps, last 4 wks vs prior 4",
   "spark": [
    1,
@@ -67,7 +67,7 @@
    0,
    1,
    2,
-   3
+   4
   ],
   "good_when": "up"
  },
@@ -75,7 +75,7 @@
   "metric": "response",
   "level": "Director & above",
   "label": "Response rate",
-  "value": 0.188,
+  "value": 0.235,
   "format": "percent",
   "good_when": "up"
  },
@@ -83,7 +83,7 @@
   "metric": "live",
   "level": "Director & above",
   "label": "Live interview processes",
-  "value": 1,
+  "value": 0,
   "format": "integer",
   "good_when": "up"
  },
@@ -91,7 +91,7 @@
   "metric": "no_response",
   "level": "Director & above",
   "label": "No Response",
-  "value": 7,
+  "value": 6,
   "format": "integer",
   "good_when": "down"
  },
@@ -101,7 +101,7 @@
   "label": "Applications submitted",
   "value": 16,
   "format": "integer",
-  "delta": 0,
+  "delta": -0.286,
   "delta_label": "dated apps, last 4 wks vs prior 4",
   "spark": [
    0,
@@ -123,7 +123,7 @@
   "metric": "response",
   "level": "Manager & IC",
   "label": "Response rate",
-  "value": 0.375,
+  "value": 0.5,
   "format": "percent",
   "good_when": "up"
  },
@@ -131,7 +131,7 @@
   "metric": "live",
   "level": "Manager & IC",
   "label": "Live interview processes",
-  "value": 3,
+  "value": 4,
   "format": "integer",
   "good_when": "up"
  },
