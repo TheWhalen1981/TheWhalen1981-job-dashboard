@@ -2,7 +2,7 @@
   "title": "4 live interviews in progress; 12 employers have responded out of 33 applications.",
   "eyebrow": "Bradley Whalen \u00b7 Job search pipeline \u00b7 Aug\u2013Oct 2026",
   "subtitle": "Every application in the tracker, from first submission on Aug 13 to today. Use the level tabs to compare Director-and-above roles with Manager and IC roles; hover any dot for the role. Status is the source of truth for all pipeline counts.",
-  "data_as_of": "2026-10-30T00:38:40Z",
+  "data_as_of": "2026-10-31T00:39:39Z",
   "theme": "editorial",
   "refresh": {
     "mode": "refresh",
@@ -153,7 +153,7 @@
       "span": 7,
       "title": "How long each application has been out",
       "subtitle": "Days since submission, one dot per dated application \u00b7 colour = current status",
-      "insight": "13 No Response applications are 30+ days old; the oldest, SiTime, is at 77 days.",
+      "insight": "13 No Response applications are 30+ days old; the oldest, SiTime, is at 78 days.",
       "data": "waiting",
       "category": "label",
       "value": "days",
