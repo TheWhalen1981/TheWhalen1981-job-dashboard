@@ -447,49 +447,61 @@
   "date": "Oct 26",
   "level": "All",
   "applied": 26,
-  "heard": 8
+  "heard": 9
  },
  {
   "date": "Oct 27",
   "level": "All",
   "applied": 28,
-  "heard": 8
+  "heard": 9
  },
  {
   "date": "Oct 28",
   "level": "All",
   "applied": 30,
-  "heard": 10
+  "heard": 11
  },
  {
   "date": "Oct 29",
   "level": "All",
   "applied": 31,
-  "heard": 10
+  "heard": 11
  },
  {
   "date": "Oct 30",
   "level": "All",
   "applied": 31,
-  "heard": 10
+  "heard": 11
  },
  {
   "date": "Oct 31",
   "level": "All",
   "applied": 31,
-  "heard": 10
+  "heard": 11
  },
  {
   "date": "Nov 1",
   "level": "All",
   "applied": 31,
-  "heard": 10
+  "heard": 11
  },
  {
   "date": "Nov 2",
   "level": "All",
-  "applied": 31,
-  "heard": 10
+  "applied": 32,
+  "heard": 11
+ },
+ {
+  "date": "Nov 3",
+  "level": "All",
+  "applied": 32,
+  "heard": 11
+ },
+ {
+  "date": "Nov 4",
+  "level": "All",
+  "applied": 34,
+  "heard": 11
  },
  {
   "date": "Aug 13",
@@ -939,49 +951,61 @@
   "date": "Oct 26",
   "level": "Director & above",
   "applied": 13,
-  "heard": 3
+  "heard": 4
  },
  {
   "date": "Oct 27",
   "level": "Director & above",
   "applied": 15,
-  "heard": 3
+  "heard": 4
  },
  {
   "date": "Oct 28",
   "level": "Director & above",
   "applied": 15,
-  "heard": 3
+  "heard": 4
  },
  {
   "date": "Oct 29",
   "level": "Director & above",
   "applied": 16,
-  "heard": 3
+  "heard": 4
  },
  {
   "date": "Oct 30",
   "level": "Director & above",
   "applied": 16,
-  "heard": 3
+  "heard": 4
  },
  {
   "date": "Oct 31",
   "level": "Director & above",
   "applied": 16,
-  "heard": 3
+  "heard": 4
  },
  {
   "date": "Nov 1",
   "level": "Director & above",
   "applied": 16,
-  "heard": 3
+  "heard": 4
  },
  {
   "date": "Nov 2",
   "level": "Director & above",
   "applied": 16,
-  "heard": 3
+  "heard": 4
+ },
+ {
+  "date": "Nov 3",
+  "level": "Director & above",
+  "applied": 16,
+  "heard": 4
+ },
+ {
+  "date": "Nov 4",
+  "level": "Director & above",
+  "applied": 16,
+  "heard": 4
  },
  {
   "date": "Aug 13",
@@ -1472,7 +1496,19 @@
  {
   "date": "Nov 2",
   "level": "Manager & IC",
-  "applied": 15,
+  "applied": 16,
+  "heard": 7
+ },
+ {
+  "date": "Nov 3",
+  "level": "Manager & IC",
+  "applied": 16,
+  "heard": 7
+ },
+ {
+  "date": "Nov 4",
+  "level": "Manager & IC",
+  "applied": 18,
   "heard": 7
  }
 ]
