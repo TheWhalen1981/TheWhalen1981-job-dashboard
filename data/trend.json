@@ -531,7 +531,43 @@
   "date": "Nov 9",
   "level": "All",
   "applied": 35,
-  "heard": 11
+  "heard": 12
+ },
+ {
+  "date": "Nov 10",
+  "level": "All",
+  "applied": 35,
+  "heard": 12
+ },
+ {
+  "date": "Nov 11",
+  "level": "All",
+  "applied": 36,
+  "heard": 12
+ },
+ {
+  "date": "Nov 12",
+  "level": "All",
+  "applied": 36,
+  "heard": 12
+ },
+ {
+  "date": "Nov 13",
+  "level": "All",
+  "applied": 36,
+  "heard": 12
+ },
+ {
+  "date": "Nov 14",
+  "level": "All",
+  "applied": 36,
+  "heard": 12
+ },
+ {
+  "date": "Nov 15",
+  "level": "All",
+  "applied": 36,
+  "heard": 12
  },
  {
   "date": "Aug 13",
@@ -1068,6 +1104,42 @@
   "heard": 4
  },
  {
+  "date": "Nov 10",
+  "level": "Director & above",
+  "applied": 16,
+  "heard": 4
+ },
+ {
+  "date": "Nov 11",
+  "level": "Director & above",
+  "applied": 16,
+  "heard": 4
+ },
+ {
+  "date": "Nov 12",
+  "level": "Director & above",
+  "applied": 16,
+  "heard": 4
+ },
+ {
+  "date": "Nov 13",
+  "level": "Director & above",
+  "applied": 16,
+  "heard": 4
+ },
+ {
+  "date": "Nov 14",
+  "level": "Director & above",
+  "applied": 16,
+  "heard": 4
+ },
+ {
+  "date": "Nov 15",
+  "level": "Director & above",
+  "applied": 16,
+  "heard": 4
+ },
+ {
   "date": "Aug 13",
   "level": "Manager & IC",
   "applied": 0,
@@ -1599,6 +1671,42 @@
   "date": "Nov 9",
   "level": "Manager & IC",
   "applied": 19,
-  "heard": 7
+  "heard": 8
+ },
+ {
+  "date": "Nov 10",
+  "level": "Manager & IC",
+  "applied": 19,
+  "heard": 8
+ },
+ {
+  "date": "Nov 11",
+  "level": "Manager & IC",
+  "applied": 20,
+  "heard": 8
+ },
+ {
+  "date": "Nov 12",
+  "level": "Manager & IC",
+  "applied": 20,
+  "heard": 8
+ },
+ {
+  "date": "Nov 13",
+  "level": "Manager & IC",
+  "applied": 20,
+  "heard": 8
+ },
+ {
+  "date": "Nov 14",
+  "level": "Manager & IC",
+  "applied": 20,
+  "heard": 8
+ },
+ {
+  "date": "Nov 15",
+  "level": "Manager & IC",
+  "applied": 20,
+  "heard": 8
  }
 ]

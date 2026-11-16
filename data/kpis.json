@@ -3,9 +3,9 @@
   "metric": "apps",
   "level": "All",
   "label": "Applications submitted",
-  "value": 37,
+  "value": 38,
   "format": "integer",
-  "delta": 0.364,
+  "delta": 1.143,
   "delta_label": "dated apps, last 4 wks vs prior 4",
   "spark": [
    1,
@@ -21,7 +21,7 @@
    3,
    7,
    3,
-   1
+   2
   ],
   "good_when": "up"
  },
@@ -29,7 +29,7 @@
   "metric": "response",
   "level": "All",
   "label": "Response rate",
-  "value": 0.351,
+  "value": 0.368,
   "format": "percent",
   "good_when": "up"
  },
@@ -37,7 +37,7 @@
   "metric": "live",
   "level": "All",
   "label": "Live interview processes",
-  "value": 4,
+  "value": 5,
   "format": "integer",
   "good_when": "up"
  },
@@ -55,7 +55,7 @@
   "label": "Applications submitted",
   "value": 17,
   "format": "integer",
-  "delta": 1.333,
+  "delta": 2,
   "delta_label": "dated apps, last 4 wks vs prior 4",
   "spark": [
    1,
@@ -103,9 +103,9 @@
   "metric": "apps",
   "level": "Manager & IC",
   "label": "Applications submitted",
-  "value": 20,
+  "value": 21,
   "format": "integer",
-  "delta": 0,
+  "delta": 0.8,
   "delta_label": "dated apps, last 4 wks vs prior 4",
   "spark": [
    0,
@@ -121,7 +121,7 @@
    1,
    3,
    3,
-   1
+   2
   ],
   "good_when": "up"
  },
@@ -129,7 +129,7 @@
   "metric": "response",
   "level": "Manager & IC",
   "label": "Response rate",
-  "value": 0.4,
+  "value": 0.429,
   "format": "percent",
   "good_when": "up"
  },
@@ -137,7 +137,7 @@
   "metric": "live",
   "level": "Manager & IC",
   "label": "Live interview processes",
-  "value": 4,
+  "value": 5,
   "format": "integer",
   "good_when": "up"
  },

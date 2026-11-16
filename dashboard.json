@@ -1,8 +1,8 @@
 {
-  "title": "4 live interviews in progress; 13 employers have responded out of 37 applications.",
-  "eyebrow": "Bradley Whalen \u00b7 Job search pipeline \u00b7 Aug\u2013Oct 2026",
+  "title": "5 live interviews in progress; 14 employers have responded out of 38 applications.",
+  "eyebrow": "Bradley Whalen \u00b7 Job search pipeline \u00b7 Aug\u2013Nov 2026",
   "subtitle": "Every application in the tracker, from first submission on Aug 13 to today. Use the level tabs to compare Director-and-above roles with Manager and IC roles; hover any dot for the role. Status is the source of truth for all pipeline counts.",
-  "data_as_of": "2026-11-10T00:59:04Z",
+  "data_as_of": "2026-11-16T01:26:30Z",
   "theme": "editorial",
   "refresh": {
     "mode": "refresh",
@@ -11,11 +11,11 @@
   "sources": [
     {
       "id": "tracker",
-      "label": "Bradley_Whalen_Job_Tracker.xlsx \u00b7 sheet \u201cJob Applications\u201d (Status format, updated Oct 27, 2026)"
+      "label": "Bradley_Whalen_Job_Tracker.xlsx \u00b7 sheet \u201cJob Applications\u201d (Status format, updated Nov 11, 2026)"
     }
   ],
   "asks": [
-    "Live, shareable dashboard built from Bradley_Whalen_Job_Tracker.xlsx (latest version, 30 applications)",
+    "Live, shareable dashboard built from Bradley_Whalen_Job_Tracker.xlsx (latest version, 38 applications)",
     "Interactive charts and KPIs",
     "Kept current on a schedule: re-read the tracker file daily, never modify the xlsx",
     "Green rows (active interviews) shown as live processes",
@@ -109,8 +109,8 @@
       "type": "area",
       "span": 8,
       "title": "Applications and responses, cumulative",
-      "subtitle": "Daily running total by submission date \u00b7 35 applications with exact dates (Volta and Tektronix list only a month and are left out of the trend line)",
-      "insight": "The Sep 17 batch did the work: 4 of those 4 applications drew a response. 35\u00a0% overall response rate (13 of 37).",
+      "subtitle": "Daily running total by submission date \u00b7 36 applications with exact dates (Volta and Tektronix list only a month and are left out of the trend line)",
+      "insight": "The Sep 17 batch did the work: 4 of those 4 applications drew a response. 37\u00a0% overall response rate (14 of 38).",
       "data": "trend",
       "x": "date",
       "series": [
@@ -139,8 +139,8 @@
       "type": "funnel",
       "span": 4,
       "title": "From application to offer",
-      "subtitle": "All 37 applications \u00b7 Responded = Interview + Closed + Accepted Offer",
-      "insight": "13 employers replied out of 37 \u2014 all 4 interview processes are still open.",
+      "subtitle": "All 38 applications \u00b7 Responded = Interview + Closed + Accepted Offer",
+      "insight": "14 employers replied out of 38 \u2014 all 5 interview processes are still open.",
       "data": "funnel",
       "category": "stage",
       "value": "value",
@@ -153,7 +153,7 @@
       "span": 7,
       "title": "How long each application has been out",
       "subtitle": "Days since submission, one dot per dated application \u00b7 colour = current status",
-      "insight": "13 No Response applications are 30+ days old; the oldest, SiTime, is at 88 days.",
+      "insight": "13 No Response applications are 30+ days old; the oldest, SiTime, is at 94 days.",
       "data": "waiting",
       "category": "label",
       "value": "days",
@@ -205,8 +205,8 @@
       "type": "table",
       "span": 12,
       "title": "The full pipeline",
-      "subtitle": "All 37 applications \u00b7 Status is the source of truth \u00b7 pay copied where posted",
-      "insight": "HP, Cisco, Atlassian, Atlassian are the 4 live interviews; 9 roles closed.",
+      "subtitle": "All 38 applications \u00b7 Status is the source of truth \u00b7 pay copied where posted",
+      "insight": "HP, Cisco, Atlassian, Atlassian, Lithos AI are the 5 live interviews; 9 roles closed.",
       "data": "applications",
       "columns": [
         {
